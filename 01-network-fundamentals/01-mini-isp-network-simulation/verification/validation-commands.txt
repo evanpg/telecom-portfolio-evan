@@ -1,0 +1,52 @@
+# =============================================================================
+# Verification Commands — MetroLink ISP Simulation
+# Run these after applying configs in Packet Tracer or on lab devices
+# =============================================================================
+
+# --- R-ISP-CORE ---
+show ip interface brief
+show ip route
+show ip nat translations
+ping 203.0.113.2
+ping 10.0.0.2
+ping 192.168.100.254
+ping 192.168.101.254
+traceroute 192.168.100.10
+
+# --- SW-DIST ---
+show ip route
+show vlan brief
+show interfaces trunk
+show ip interface brief
+ping 10.0.0.1
+ping 10.0.0.34
+ping 192.168.100.253
+ping 192.168.101.253
+
+# --- R-ACME (from customer perspective) ---
+show ip route
+show ip nat translations
+ping 192.168.100.254
+ping 10.0.0.35
+ping 10.0.0.36
+ping 203.0.113.2
+
+# --- R-BETA ---
+show ip route
+ping 192.168.101.254
+ping 10.0.0.35
+
+# --- End-user PC (Command Prompt) ---
+ipconfig /all
+ping 192.168.100.1
+ping 10.0.0.35
+nslookup portal.metrolink.local 10.0.0.35
+ping portal.metrolink.local
+ping 203.0.113.2
+
+# --- Expected results ---
+# - All gateway pings succeed within each subnet
+# - Cross-customer ping works (unless ACLs added later)
+# - DNS resolves portal.metrolink.local → 10.0.0.36
+# - Internet simulation (203.0.113.2) reachable from customer PCs
+# - ipconfig shows DHCP-assigned address in .50-.200 range
