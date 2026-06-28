@@ -1,0 +1,9 @@
+! BROKEN — Scenario 2A: Wrong DNS server on client
+! Symptom: ping 192.168.2.10 works; app.internal fails
+
+IP Address:      192.168.1.10
+Subnet Mask:     255.255.255.0
+Default Gateway: 192.168.1.1
+DNS Server:      8.8.8.8           <-- WRONG (no internal zone)
+
+Fix: Set DNS Server to 192.168.1.35

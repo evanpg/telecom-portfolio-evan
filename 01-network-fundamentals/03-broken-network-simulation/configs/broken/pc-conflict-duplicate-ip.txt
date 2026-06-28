@@ -1,0 +1,10 @@
+! BROKEN — Scenario 3: Duplicate IP on second PC
+! Symptom: Intermittent connectivity for both hosts
+
+Device: PC-CONFLICT
+IP Address:      192.168.1.10     <-- DUPLICATE of PC-USER (static)
+Subnet Mask:     255.255.255.0
+Default Gateway: 192.168.1.1
+DHCP Enabled:    No
+
+Fix: Enable DHCP on PC-CONFLICT and renew (see pc-conflict-dhcp-fixed.txt)

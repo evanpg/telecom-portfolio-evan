@@ -1,0 +1,16 @@
+! FIXED — Scenario 3: PC-CONFLICT after DHCP renewal
+! R-GW DHCP pool: 192.168.1.50 - 192.168.1.200
+
+Device: PC-CONFLICT
+DHCP Enabled:    Yes
+IPv4 Address:    192.168.1.50     <-- leased from DHCP (example)
+Subnet Mask:     255.255.255.0
+Default Gateway: 192.168.1.1
+DNS Server:      192.168.1.35
+DHCP Server:     192.168.1.1
+
+! CLI steps on PC-CONFLICT:
+!   ipconfig /release
+!   ipconfig /renew
+
+PC-USER remains static at 192.168.1.10

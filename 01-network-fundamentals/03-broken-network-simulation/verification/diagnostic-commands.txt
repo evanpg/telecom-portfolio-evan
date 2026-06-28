@@ -1,0 +1,46 @@
+# Diagnostic Commands — Broken Network Lab
+# Run from PC-USER unless noted
+
+# --- Layer 1/2/3 baseline ---
+ipconfig /all
+ping 127.0.0.1
+ping 192.168.1.10
+ping 192.168.1.1
+ping 192.168.1.35
+ping 192.168.2.10
+
+# --- Path discovery ---
+tracert 192.168.2.10
+tracert 192.168.1.35
+
+# --- DNS ---
+nslookup app.internal
+nslookup app.internal 192.168.1.35
+
+# --- ARP (scenario 3 — IP conflict) ---
+arp -a
+arp -d *
+
+# --- On R-GW ---
+show ip interface brief
+show ip route
+show ip route 192.168.2.0
+ping 192.168.1.10
+ping 10.0.0.2
+ping 192.168.2.10
+
+# --- On R-CORE ---
+show ip route
+show ip route 192.168.2.10
+traceroute 192.168.2.10
+
+# --- On R-ENG ---
+show ip route
+ping 192.168.2.10
+
+# --- Expected results (all scenarios fixed) ---
+# ping 192.168.1.1       -> Success
+# ping 192.168.1.35      -> Success
+# ping 192.168.2.10      -> Success
+# nslookup app.internal  -> 192.168.2.10
+# tracert 192.168.2.10   -> 4 hops (PC, R-GW, R-CORE, R-ENG, APP)

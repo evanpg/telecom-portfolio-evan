@@ -1,0 +1,8 @@
+! BROKEN — Scenario 2B: Wrong DNS zone record
+! Symptom: nslookup returns wrong IP or fails
+
+IP Address:  192.168.1.35
+DNS Records:
+  app.internal  -> 192.168.2.99    <-- WRONG (should be .10)
+
+Fix: Correct A record to 192.168.2.10

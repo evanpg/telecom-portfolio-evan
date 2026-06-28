@@ -1,0 +1,9 @@
+! BROKEN — Scenario 1: Wrong default gateway
+! Symptom: Cannot reach off-subnet hosts
+
+IP Address:      192.168.1.10
+Subnet Mask:     255.255.255.0
+Default Gateway: 192.168.1.254    <-- WRONG (no device at this address)
+DNS Server:      192.168.1.35
+
+Fix: Change Default Gateway to 192.168.1.1
