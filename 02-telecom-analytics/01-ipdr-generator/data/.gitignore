@@ -1,0 +1,3 @@
+# Keep generated datasets local; regenerate with generate_ipdr.py
+*
+!.gitignore
