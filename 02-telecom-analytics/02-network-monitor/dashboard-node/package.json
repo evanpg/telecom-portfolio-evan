@@ -1,0 +1,20 @@
+{
+  "name": "network-monitor-dashboard",
+  "version": "1.0.0",
+  "description": "Browser dashboard for IPDR network monitor data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node live.js",
+    "live": "node live.js",
+    "dashboard": "node server.js",
+    "dev": "node live.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "express": "^4.21.2",
+    "geoip-lite": "^1.4.10"
+  }
+}

@@ -1,0 +1,1811 @@
+{
+  "createdAt": "2026-07-02T02:09:51.612Z",
+  "windowSec": 180,
+  "summary": {
+    "live": true,
+    "windowSec": 300,
+    "totalSessions": 15,
+    "totalBytesUp": 430592,
+    "totalBytesDown": 73728,
+    "uploadPct": 85,
+    "downloadPct": 15,
+    "anomalyCount": 5,
+    "bandwidthSamples": 169,
+    "currentUploadBps": 2192,
+    "currentDownloadBps": 2327,
+    "topApps": [
+      {
+        "name": "Unknown",
+        "count": 5
+      },
+      {
+        "name": "Amazon",
+        "count": 4
+      },
+      {
+        "name": "Server-3-163-139-49",
+        "count": 3
+      },
+      {
+        "name": "HTTPS",
+        "count": 2
+      },
+      {
+        "name": "Nave",
+        "count": 1
+      }
+    ],
+    "topDomains": [
+      {
+        "name": "ec2-44-194-212-43.compute-1.amazonaws.com",
+        "bytes": 158720
+      },
+      {
+        "name": "server-3-163-139-49.eze50.r.cloudfront.net",
+        "bytes": 157184
+      },
+      {
+        "name": "104.18.18.125",
+        "bytes": 87040
+      },
+      {
+        "name": "nave",
+        "bytes": 73728
+      },
+      {
+        "name": "127.0.0.1",
+        "bytes": 25600
+      },
+      {
+        "name": "ec2-54-204-16-175.compute-1.amazonaws.com",
+        "bytes": 512
+      },
+      {
+        "name": "ec2-3-221-16-93.compute-1.amazonaws.com",
+        "bytes": 512
+      },
+      {
+        "name": "ec2-100-50-78-209.compute-1.amazonaws.com",
+        "bytes": 512
+      },
+      {
+        "name": "172.172.255.216",
+        "bytes": 512
+      }
+    ],
+    "serviceMix": [
+      {
+        "name": "browsing",
+        "count": 15
+      }
+    ],
+    "sessionTimeline": {
+      "buckets": [
+        {
+          "label": "-3:00",
+          "count": 0,
+          "offsetSec": -180
+        },
+        {
+          "label": "-2:55",
+          "count": 0,
+          "offsetSec": -175
+        },
+        {
+          "label": "-2:50",
+          "count": 1,
+          "offsetSec": -170
+        },
+        {
+          "label": "-2:45",
+          "count": 0,
+          "offsetSec": -165
+        },
+        {
+          "label": "-2:40",
+          "count": 0,
+          "offsetSec": -160
+        },
+        {
+          "label": "-2:35",
+          "count": 0,
+          "offsetSec": -155
+        },
+        {
+          "label": "-2:30",
+          "count": 0,
+          "offsetSec": -150
+        },
+        {
+          "label": "-2:25",
+          "count": 0,
+          "offsetSec": -145
+        },
+        {
+          "label": "-2:20",
+          "count": 0,
+          "offsetSec": -140
+        },
+        {
+          "label": "-2:15",
+          "count": 0,
+          "offsetSec": -135
+        },
+        {
+          "label": "-2:10",
+          "count": 0,
+          "offsetSec": -130
+        },
+        {
+          "label": "-2:05",
+          "count": 1,
+          "offsetSec": -125
+        },
+        {
+          "label": "-2:00",
+          "count": 1,
+          "offsetSec": -120
+        },
+        {
+          "label": "-1:55",
+          "count": 2,
+          "offsetSec": -115
+        },
+        {
+          "label": "-1:50",
+          "count": 2,
+          "offsetSec": -110
+        },
+        {
+          "label": "-1:45",
+          "count": 0,
+          "offsetSec": -105
+        },
+        {
+          "label": "-1:40",
+          "count": 0,
+          "offsetSec": -100
+        },
+        {
+          "label": "-1:35",
+          "count": 0,
+          "offsetSec": -95
+        },
+        {
+          "label": "-1:30",
+          "count": 0,
+          "offsetSec": -90
+        },
+        {
+          "label": "-1:25",
+          "count": 0,
+          "offsetSec": -85
+        },
+        {
+          "label": "-1:20",
+          "count": 0,
+          "offsetSec": -80
+        },
+        {
+          "label": "-1:15",
+          "count": 0,
+          "offsetSec": -75
+        },
+        {
+          "label": "-1:10",
+          "count": 0,
+          "offsetSec": -70
+        },
+        {
+          "label": "-1:05",
+          "count": 0,
+          "offsetSec": -65
+        },
+        {
+          "label": "-1:00",
+          "count": 0,
+          "offsetSec": -60
+        },
+        {
+          "label": "-0:55",
+          "count": 0,
+          "offsetSec": -55
+        },
+        {
+          "label": "-0:50",
+          "count": 1,
+          "offsetSec": -50
+        },
+        {
+          "label": "-0:45",
+          "count": 0,
+          "offsetSec": -45
+        },
+        {
+          "label": "-0:40",
+          "count": 0,
+          "offsetSec": -40
+        },
+        {
+          "label": "-0:35",
+          "count": 0,
+          "offsetSec": -35
+        },
+        {
+          "label": "-0:30",
+          "count": 0,
+          "offsetSec": -30
+        },
+        {
+          "label": "-0:25",
+          "count": 0,
+          "offsetSec": -25
+        },
+        {
+          "label": "-0:20",
+          "count": 0,
+          "offsetSec": -20
+        },
+        {
+          "label": "-0:15",
+          "count": 0,
+          "offsetSec": -15
+        },
+        {
+          "label": "-0:10",
+          "count": 0,
+          "offsetSec": -10
+        },
+        {
+          "label": "-0:05",
+          "count": 0,
+          "offsetSec": -5
+        }
+      ],
+      "bucketSec": 5,
+      "windowSec": 180,
+      "windowEnd": "2026-07-02T02:09:50.000Z"
+    }
+  },
+  "bandwidth": [
+    {
+      "id": 3319,
+      "timestamp": 1782958012.5728495,
+      "bytes_sent_per_sec": 8937,
+      "bytes_recv_per_sec": 15543,
+      "packets_sent_per_sec": 47,
+      "packets_recv_per_sec": 52
+    },
+    {
+      "id": 3320,
+      "timestamp": 1782958013.3286262,
+      "bytes_sent_per_sec": 7216,
+      "bytes_recv_per_sec": 15128,
+      "packets_sent_per_sec": 36,
+      "packets_recv_per_sec": 49
+    },
+    {
+      "id": 3321,
+      "timestamp": 1782958014.5996234,
+      "bytes_sent_per_sec": 12435,
+      "bytes_recv_per_sec": 142152,
+      "packets_sent_per_sec": 105,
+      "packets_recv_per_sec": 168
+    },
+    {
+      "id": 3322,
+      "timestamp": 1782958015.3924544,
+      "bytes_sent_per_sec": 12227,
+      "bytes_recv_per_sec": 141929,
+      "packets_sent_per_sec": 102,
+      "packets_recv_per_sec": 164
+    },
+    {
+      "id": 3323,
+      "timestamp": 1782958016.6302571,
+      "bytes_sent_per_sec": 442,
+      "bytes_recv_per_sec": 583,
+      "packets_sent_per_sec": 6,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3324,
+      "timestamp": 1782958017.4147794,
+      "bytes_sent_per_sec": 404,
+      "bytes_recv_per_sec": 472,
+      "packets_sent_per_sec": 6,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3325,
+      "timestamp": 1782958018.701959,
+      "bytes_sent_per_sec": 11952,
+      "bytes_recv_per_sec": 17270,
+      "packets_sent_per_sec": 83,
+      "packets_recv_per_sec": 84
+    },
+    {
+      "id": 3326,
+      "timestamp": 1782958019.4436939,
+      "bytes_sent_per_sec": 12564,
+      "bytes_recv_per_sec": 18392,
+      "packets_sent_per_sec": 89,
+      "packets_recv_per_sec": 89
+    },
+    {
+      "id": 3327,
+      "timestamp": 1782958020.7651134,
+      "bytes_sent_per_sec": 4076,
+      "bytes_recv_per_sec": 4305,
+      "packets_sent_per_sec": 35,
+      "packets_recv_per_sec": 39
+    },
+    {
+      "id": 3328,
+      "timestamp": 1782958021.5956163,
+      "bytes_sent_per_sec": 3464,
+      "bytes_recv_per_sec": 3117,
+      "packets_sent_per_sec": 29,
+      "packets_recv_per_sec": 33
+    },
+    {
+      "id": 3329,
+      "timestamp": 1782958022.7979467,
+      "bytes_sent_per_sec": 231,
+      "bytes_recv_per_sec": 298,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 5
+    },
+    {
+      "id": 3330,
+      "timestamp": 1782958023.6213994,
+      "bytes_sent_per_sec": 2954,
+      "bytes_recv_per_sec": 2022,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 18
+    },
+    {
+      "id": 3331,
+      "timestamp": 1782958024.8278184,
+      "bytes_sent_per_sec": 3936,
+      "bytes_recv_per_sec": 3402,
+      "packets_sent_per_sec": 23,
+      "packets_recv_per_sec": 24
+    },
+    {
+      "id": 3332,
+      "timestamp": 1782958026.855041,
+      "bytes_sent_per_sec": 441,
+      "bytes_recv_per_sec": 538,
+      "packets_sent_per_sec": 6,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3333,
+      "timestamp": 1782958028.9594705,
+      "bytes_sent_per_sec": 6686,
+      "bytes_recv_per_sec": 720,
+      "packets_sent_per_sec": 20,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3334,
+      "timestamp": 1782958030.2791574,
+      "bytes_sent_per_sec": 9162,
+      "bytes_recv_per_sec": 5162,
+      "packets_sent_per_sec": 49,
+      "packets_recv_per_sec": 39
+    },
+    {
+      "id": 3335,
+      "timestamp": 1782958031.062251,
+      "bytes_sent_per_sec": 1479,
+      "bytes_recv_per_sec": 2548,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 12
+    },
+    {
+      "id": 3336,
+      "timestamp": 1782958033.2008405,
+      "bytes_sent_per_sec": 4263,
+      "bytes_recv_per_sec": 3400,
+      "packets_sent_per_sec": 27,
+      "packets_recv_per_sec": 29
+    },
+    {
+      "id": 3337,
+      "timestamp": 1782958035.2225926,
+      "bytes_sent_per_sec": 7378,
+      "bytes_recv_per_sec": 8955,
+      "packets_sent_per_sec": 35,
+      "packets_recv_per_sec": 37
+    },
+    {
+      "id": 3338,
+      "timestamp": 1782958036.9663641,
+      "bytes_sent_per_sec": 12569,
+      "bytes_recv_per_sec": 14335,
+      "packets_sent_per_sec": 71,
+      "packets_recv_per_sec": 83
+    },
+    {
+      "id": 3339,
+      "timestamp": 1782958037.245521,
+      "bytes_sent_per_sec": 326,
+      "bytes_recv_per_sec": 1700,
+      "packets_sent_per_sec": 5,
+      "packets_recv_per_sec": 14
+    },
+    {
+      "id": 3340,
+      "timestamp": 1782958039.0433142,
+      "bytes_sent_per_sec": 23638,
+      "bytes_recv_per_sec": 32617,
+      "packets_sent_per_sec": 119,
+      "packets_recv_per_sec": 120
+    },
+    {
+      "id": 3341,
+      "timestamp": 1782958039.266986,
+      "bytes_sent_per_sec": 24020,
+      "bytes_recv_per_sec": 32617,
+      "packets_sent_per_sec": 122,
+      "packets_recv_per_sec": 120
+    },
+    {
+      "id": 3342,
+      "timestamp": 1782958041.0680943,
+      "bytes_sent_per_sec": 746,
+      "bytes_recv_per_sec": 735,
+      "packets_sent_per_sec": 9,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3343,
+      "timestamp": 1782958041.2869213,
+      "bytes_sent_per_sec": 419,
+      "bytes_recv_per_sec": 735,
+      "packets_sent_per_sec": 7,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3344,
+      "timestamp": 1782958043.2022865,
+      "bytes_sent_per_sec": 3953,
+      "bytes_recv_per_sec": 16836,
+      "packets_sent_per_sec": 23,
+      "packets_recv_per_sec": 44
+    },
+    {
+      "id": 3345,
+      "timestamp": 1782958045.2257326,
+      "bytes_sent_per_sec": 2331,
+      "bytes_recv_per_sec": 10054,
+      "packets_sent_per_sec": 27,
+      "packets_recv_per_sec": 34
+    },
+    {
+      "id": 3346,
+      "timestamp": 1782958047.3185542,
+      "bytes_sent_per_sec": 502,
+      "bytes_recv_per_sec": 587,
+      "packets_sent_per_sec": 7,
+      "packets_recv_per_sec": 10
+    },
+    {
+      "id": 3347,
+      "timestamp": 1782958047.8642235,
+      "bytes_sent_per_sec": 6786,
+      "bytes_recv_per_sec": 27477,
+      "packets_sent_per_sec": 57,
+      "packets_recv_per_sec": 88
+    },
+    {
+      "id": 3348,
+      "timestamp": 1782958049.347627,
+      "bytes_sent_per_sec": 4047,
+      "bytes_recv_per_sec": 8768,
+      "packets_sent_per_sec": 35,
+      "packets_recv_per_sec": 41
+    },
+    {
+      "id": 3349,
+      "timestamp": 1782958049.9048154,
+      "bytes_sent_per_sec": 4483,
+      "bytes_recv_per_sec": 9162,
+      "packets_sent_per_sec": 39,
+      "packets_recv_per_sec": 44
+    },
+    {
+      "id": 3350,
+      "timestamp": 1782958051.3652642,
+      "bytes_sent_per_sec": 693,
+      "bytes_recv_per_sec": 595,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 6
+    },
+    {
+      "id": 3351,
+      "timestamp": 1782958051.9265828,
+      "bytes_sent_per_sec": 202,
+      "bytes_recv_per_sec": 321,
+      "packets_sent_per_sec": 3,
+      "packets_recv_per_sec": 5
+    },
+    {
+      "id": 3352,
+      "timestamp": 1782958053.3918154,
+      "bytes_sent_per_sec": 204,
+      "bytes_recv_per_sec": 354,
+      "packets_sent_per_sec": 3,
+      "packets_recv_per_sec": 5
+    },
+    {
+      "id": 3353,
+      "timestamp": 1782958053.9852078,
+      "bytes_sent_per_sec": 258,
+      "bytes_recv_per_sec": 360,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 5
+    },
+    {
+      "id": 3354,
+      "timestamp": 1782958055.4142547,
+      "bytes_sent_per_sec": 948,
+      "bytes_recv_per_sec": 940,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3355,
+      "timestamp": 1782958056.007509,
+      "bytes_sent_per_sec": 1135,
+      "bytes_recv_per_sec": 1096,
+      "packets_sent_per_sec": 14,
+      "packets_recv_per_sec": 13
+    },
+    {
+      "id": 3356,
+      "timestamp": 1782958057.4374092,
+      "bytes_sent_per_sec": 497,
+      "bytes_recv_per_sec": 703,
+      "packets_sent_per_sec": 7,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3357,
+      "timestamp": 1782958058.1057587,
+      "bytes_sent_per_sec": 366,
+      "bytes_recv_per_sec": 487,
+      "packets_sent_per_sec": 6,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3358,
+      "timestamp": 1782958059.5020058,
+      "bytes_sent_per_sec": 651,
+      "bytes_recv_per_sec": 585,
+      "packets_sent_per_sec": 9,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3359,
+      "timestamp": 1782958060.1344643,
+      "bytes_sent_per_sec": 1031,
+      "bytes_recv_per_sec": 977,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 12
+    },
+    {
+      "id": 3360,
+      "timestamp": 1782958061.5196748,
+      "bytes_sent_per_sec": 746,
+      "bytes_recv_per_sec": 1145,
+      "packets_sent_per_sec": 9,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3361,
+      "timestamp": 1782958062.156967,
+      "bytes_sent_per_sec": 311,
+      "bytes_recv_per_sec": 753,
+      "packets_sent_per_sec": 5,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3362,
+      "timestamp": 1782958063.541535,
+      "bytes_sent_per_sec": 841,
+      "bytes_recv_per_sec": 1173,
+      "packets_sent_per_sec": 6,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3363,
+      "timestamp": 1782958064.1933193,
+      "bytes_sent_per_sec": 883,
+      "bytes_recv_per_sec": 1149,
+      "packets_sent_per_sec": 7,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3364,
+      "timestamp": 1782958065.6043522,
+      "bytes_sent_per_sec": 1047,
+      "bytes_recv_per_sec": 982,
+      "packets_sent_per_sec": 14,
+      "packets_recv_per_sec": 12
+    },
+    {
+      "id": 3365,
+      "timestamp": 1782958066.3436968,
+      "bytes_sent_per_sec": 1043,
+      "bytes_recv_per_sec": 1072,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 13
+    },
+    {
+      "id": 3366,
+      "timestamp": 1782958067.665802,
+      "bytes_sent_per_sec": 257,
+      "bytes_recv_per_sec": 442,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3367,
+      "timestamp": 1782958068.4378276,
+      "bytes_sent_per_sec": 4580,
+      "bytes_recv_per_sec": 1275,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 16
+    },
+    {
+      "id": 3368,
+      "timestamp": 1782958069.6883,
+      "bytes_sent_per_sec": 6809,
+      "bytes_recv_per_sec": 3406,
+      "packets_sent_per_sec": 22,
+      "packets_recv_per_sec": 25
+    },
+    {
+      "id": 3369,
+      "timestamp": 1782958070.4655333,
+      "bytes_sent_per_sec": 3070,
+      "bytes_recv_per_sec": 3051,
+      "packets_sent_per_sec": 22,
+      "packets_recv_per_sec": 21
+    },
+    {
+      "id": 3370,
+      "timestamp": 1782958071.7163138,
+      "bytes_sent_per_sec": 1379,
+      "bytes_recv_per_sec": 769,
+      "packets_sent_per_sec": 16,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3371,
+      "timestamp": 1782958072.4923081,
+      "bytes_sent_per_sec": 1555,
+      "bytes_recv_per_sec": 1882,
+      "packets_sent_per_sec": 21,
+      "packets_recv_per_sec": 21
+    },
+    {
+      "id": 3372,
+      "timestamp": 1782958073.8138409,
+      "bytes_sent_per_sec": 908,
+      "bytes_recv_per_sec": 1831,
+      "packets_sent_per_sec": 14,
+      "packets_recv_per_sec": 21
+    },
+    {
+      "id": 3373,
+      "timestamp": 1782958074.5153728,
+      "bytes_sent_per_sec": 1187,
+      "bytes_recv_per_sec": 8428,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 24
+    },
+    {
+      "id": 3374,
+      "timestamp": 1782958075.9118352,
+      "bytes_sent_per_sec": 8238,
+      "bytes_recv_per_sec": 9689,
+      "packets_sent_per_sec": 28,
+      "packets_recv_per_sec": 39
+    },
+    {
+      "id": 3375,
+      "timestamp": 1782958076.5434804,
+      "bytes_sent_per_sec": 7304,
+      "bytes_recv_per_sec": 3225,
+      "packets_sent_per_sec": 19,
+      "packets_recv_per_sec": 23
+    },
+    {
+      "id": 3376,
+      "timestamp": 1782958077.937564,
+      "bytes_sent_per_sec": 785,
+      "bytes_recv_per_sec": 2604,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 18
+    },
+    {
+      "id": 3377,
+      "timestamp": 1782958078.6408174,
+      "bytes_sent_per_sec": 5531,
+      "bytes_recv_per_sec": 10198,
+      "packets_sent_per_sec": 63,
+      "packets_recv_per_sec": 64
+    },
+    {
+      "id": 3378,
+      "timestamp": 1782958079.9632015,
+      "bytes_sent_per_sec": 6259,
+      "bytes_recv_per_sec": 10702,
+      "packets_sent_per_sec": 64,
+      "packets_recv_per_sec": 62
+    },
+    {
+      "id": 3379,
+      "timestamp": 1782958080.7040782,
+      "bytes_sent_per_sec": 7939,
+      "bytes_recv_per_sec": 10562,
+      "packets_sent_per_sec": 54,
+      "packets_recv_per_sec": 54
+    },
+    {
+      "id": 3380,
+      "timestamp": 1782958082.0673141,
+      "bytes_sent_per_sec": 16260,
+      "bytes_recv_per_sec": 29932,
+      "packets_sent_per_sec": 64,
+      "packets_recv_per_sec": 76
+    },
+    {
+      "id": 3381,
+      "timestamp": 1782958082.7948813,
+      "bytes_sent_per_sec": 9776,
+      "bytes_recv_per_sec": 20874,
+      "packets_sent_per_sec": 23,
+      "packets_recv_per_sec": 36
+    },
+    {
+      "id": 3382,
+      "timestamp": 1782958084.093702,
+      "bytes_sent_per_sec": 3313,
+      "bytes_recv_per_sec": 2221,
+      "packets_sent_per_sec": 18,
+      "packets_recv_per_sec": 21
+    },
+    {
+      "id": 3383,
+      "timestamp": 1782958084.8177228,
+      "bytes_sent_per_sec": 5945,
+      "bytes_recv_per_sec": 3332,
+      "packets_sent_per_sec": 24,
+      "packets_recv_per_sec": 27
+    },
+    {
+      "id": 3384,
+      "timestamp": 1782958086.1568658,
+      "bytes_sent_per_sec": 3611,
+      "bytes_recv_per_sec": 3133,
+      "packets_sent_per_sec": 18,
+      "packets_recv_per_sec": 22
+    },
+    {
+      "id": 3385,
+      "timestamp": 1782958086.9204922,
+      "bytes_sent_per_sec": 1069,
+      "bytes_recv_per_sec": 2148,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 18
+    },
+    {
+      "id": 3386,
+      "timestamp": 1782958088.253631,
+      "bytes_sent_per_sec": 339,
+      "bytes_recv_per_sec": 700,
+      "packets_sent_per_sec": 5,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3387,
+      "timestamp": 1782958089.0233734,
+      "bytes_sent_per_sec": 206,
+      "bytes_recv_per_sec": 472,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3388,
+      "timestamp": 1782958090.274393,
+      "bytes_sent_per_sec": 408,
+      "bytes_recv_per_sec": 477,
+      "packets_sent_per_sec": 7,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3389,
+      "timestamp": 1782958091.119249,
+      "bytes_sent_per_sec": 747,
+      "bytes_recv_per_sec": 697,
+      "packets_sent_per_sec": 9,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3390,
+      "timestamp": 1782958092.3013904,
+      "bytes_sent_per_sec": 693,
+      "bytes_recv_per_sec": 595,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 6
+    },
+    {
+      "id": 3391,
+      "timestamp": 1782958093.1419308,
+      "bytes_sent_per_sec": 732,
+      "bytes_recv_per_sec": 504,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3392,
+      "timestamp": 1782958094.3964276,
+      "bytes_sent_per_sec": 727,
+      "bytes_recv_per_sec": 1235,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 10
+    },
+    {
+      "id": 3393,
+      "timestamp": 1782958095.1691349,
+      "bytes_sent_per_sec": 469,
+      "bytes_recv_per_sec": 2090,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 13
+    },
+    {
+      "id": 3394,
+      "timestamp": 1782958096.4603875,
+      "bytes_sent_per_sec": 1242,
+      "bytes_recv_per_sec": 1987,
+      "packets_sent_per_sec": 16,
+      "packets_recv_per_sec": 16
+    },
+    {
+      "id": 3395,
+      "timestamp": 1782958097.1999369,
+      "bytes_sent_per_sec": 1118,
+      "bytes_recv_per_sec": 1033,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 12
+    },
+    {
+      "id": 3396,
+      "timestamp": 1782958098.4907477,
+      "bytes_sent_per_sec": 5041,
+      "bytes_recv_per_sec": 1270,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 16
+    },
+    {
+      "id": 3397,
+      "timestamp": 1782958099.2269282,
+      "bytes_sent_per_sec": 6114,
+      "bytes_recv_per_sec": 1760,
+      "packets_sent_per_sec": 24,
+      "packets_recv_per_sec": 24
+    },
+    {
+      "id": 3398,
+      "timestamp": 1782958100.5174584,
+      "bytes_sent_per_sec": 3404,
+      "bytes_recv_per_sec": 3599,
+      "packets_sent_per_sec": 29,
+      "packets_recv_per_sec": 27
+    },
+    {
+      "id": 3399,
+      "timestamp": 1782958101.2559972,
+      "bytes_sent_per_sec": 3238,
+      "bytes_recv_per_sec": 3546,
+      "packets_sent_per_sec": 25,
+      "packets_recv_per_sec": 21
+    },
+    {
+      "id": 3400,
+      "timestamp": 1782958102.610918,
+      "bytes_sent_per_sec": 5050,
+      "bytes_recv_per_sec": 9123,
+      "packets_sent_per_sec": 35,
+      "packets_recv_per_sec": 40
+    },
+    {
+      "id": 3401,
+      "timestamp": 1782958103.2761447,
+      "bytes_sent_per_sec": 4104,
+      "bytes_recv_per_sec": 8560,
+      "packets_sent_per_sec": 26,
+      "packets_recv_per_sec": 36
+    },
+    {
+      "id": 3402,
+      "timestamp": 1782958104.7073722,
+      "bytes_sent_per_sec": 1318,
+      "bytes_recv_per_sec": 468,
+      "packets_sent_per_sec": 10,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3403,
+      "timestamp": 1782958105.2992623,
+      "bytes_sent_per_sec": 6168,
+      "bytes_recv_per_sec": 15514,
+      "packets_sent_per_sec": 28,
+      "packets_recv_per_sec": 42
+    },
+    {
+      "id": 3404,
+      "timestamp": 1782958106.7988656,
+      "bytes_sent_per_sec": 10072,
+      "bytes_recv_per_sec": 24372,
+      "packets_sent_per_sec": 46,
+      "packets_recv_per_sec": 69
+    },
+    {
+      "id": 3405,
+      "timestamp": 1782958107.3287852,
+      "bytes_sent_per_sec": 5316,
+      "bytes_recv_per_sec": 9452,
+      "packets_sent_per_sec": 29,
+      "packets_recv_per_sec": 37
+    },
+    {
+      "id": 3406,
+      "timestamp": 1782958108.8246098,
+      "bytes_sent_per_sec": 4357,
+      "bytes_recv_per_sec": 8828,
+      "packets_sent_per_sec": 38,
+      "packets_recv_per_sec": 43
+    },
+    {
+      "id": 3407,
+      "timestamp": 1782958109.4290903,
+      "bytes_sent_per_sec": 6053,
+      "bytes_recv_per_sec": 13554,
+      "packets_sent_per_sec": 47,
+      "packets_recv_per_sec": 56
+    },
+    {
+      "id": 3408,
+      "timestamp": 1782958110.8570068,
+      "bytes_sent_per_sec": 2210,
+      "bytes_recv_per_sec": 5311,
+      "packets_sent_per_sec": 17,
+      "packets_recv_per_sec": 22
+    },
+    {
+      "id": 3409,
+      "timestamp": 1782958111.52577,
+      "bytes_sent_per_sec": 1040,
+      "bytes_recv_per_sec": 982,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3410,
+      "timestamp": 1782958113.0620472,
+      "bytes_sent_per_sec": 13772,
+      "bytes_recv_per_sec": 32706,
+      "packets_sent_per_sec": 59,
+      "packets_recv_per_sec": 74
+    },
+    {
+      "id": 3411,
+      "timestamp": 1782958113.5594034,
+      "bytes_sent_per_sec": 13303,
+      "bytes_recv_per_sec": 61359,
+      "packets_sent_per_sec": 56,
+      "packets_recv_per_sec": 92
+    },
+    {
+      "id": 3412,
+      "timestamp": 1782958115.1592226,
+      "bytes_sent_per_sec": 10612,
+      "bytes_recv_per_sec": 87601,
+      "packets_sent_per_sec": 45,
+      "packets_recv_per_sec": 100
+    },
+    {
+      "id": 3413,
+      "timestamp": 1782958115.5830142,
+      "bytes_sent_per_sec": 10712,
+      "bytes_recv_per_sec": 59036,
+      "packets_sent_per_sec": 45,
+      "packets_recv_per_sec": 87
+    },
+    {
+      "id": 3414,
+      "timestamp": 1782958117.2955809,
+      "bytes_sent_per_sec": 7789,
+      "bytes_recv_per_sec": 77753,
+      "packets_sent_per_sec": 47,
+      "packets_recv_per_sec": 79
+    },
+    {
+      "id": 3415,
+      "timestamp": 1782958117.7008908,
+      "bytes_sent_per_sec": 7577,
+      "bytes_recv_per_sec": 77344,
+      "packets_sent_per_sec": 44,
+      "packets_recv_per_sec": 73
+    },
+    {
+      "id": 3416,
+      "timestamp": 1782958119.3875427,
+      "bytes_sent_per_sec": 257,
+      "bytes_recv_per_sec": 430,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3417,
+      "timestamp": 1782958119.7194808,
+      "bytes_sent_per_sec": 164,
+      "bytes_recv_per_sec": 240,
+      "packets_sent_per_sec": 3,
+      "packets_recv_per_sec": 4
+    },
+    {
+      "id": 3418,
+      "timestamp": 1782958121.411413,
+      "bytes_sent_per_sec": 5423,
+      "bytes_recv_per_sec": 697,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3419,
+      "timestamp": 1782958121.7497263,
+      "bytes_sent_per_sec": 5532,
+      "bytes_recv_per_sec": 1030,
+      "packets_sent_per_sec": 14,
+      "packets_recv_per_sec": 13
+    },
+    {
+      "id": 3420,
+      "timestamp": 1782958123.4294772,
+      "bytes_sent_per_sec": 15655,
+      "bytes_recv_per_sec": 7426,
+      "packets_sent_per_sec": 48,
+      "packets_recv_per_sec": 58
+    },
+    {
+      "id": 3421,
+      "timestamp": 1782958123.7762752,
+      "bytes_sent_per_sec": 15546,
+      "bytes_recv_per_sec": 7123,
+      "packets_sent_per_sec": 46,
+      "packets_recv_per_sec": 54
+    },
+    {
+      "id": 3422,
+      "timestamp": 1782958125.4554658,
+      "bytes_sent_per_sec": 3100,
+      "bytes_recv_per_sec": 2090,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 17
+    },
+    {
+      "id": 3423,
+      "timestamp": 1782958125.8026433,
+      "bytes_sent_per_sec": 3100,
+      "bytes_recv_per_sec": 2355,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 19
+    },
+    {
+      "id": 3424,
+      "timestamp": 1782958127.4822533,
+      "bytes_sent_per_sec": 895,
+      "bytes_recv_per_sec": 1067,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3425,
+      "timestamp": 1782958127.8245049,
+      "bytes_sent_per_sec": 1043,
+      "bytes_recv_per_sec": 899,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3426,
+      "timestamp": 1782958129.5087698,
+      "bytes_sent_per_sec": 5206,
+      "bytes_recv_per_sec": 1904,
+      "packets_sent_per_sec": 15,
+      "packets_recv_per_sec": 20
+    },
+    {
+      "id": 3427,
+      "timestamp": 1782958129.9218614,
+      "bytes_sent_per_sec": 7087,
+      "bytes_recv_per_sec": 2483,
+      "packets_sent_per_sec": 21,
+      "packets_recv_per_sec": 23
+    },
+    {
+      "id": 3428,
+      "timestamp": 1782958131.541278,
+      "bytes_sent_per_sec": 2722,
+      "bytes_recv_per_sec": 2388,
+      "packets_sent_per_sec": 16,
+      "packets_recv_per_sec": 14
+    },
+    {
+      "id": 3429,
+      "timestamp": 1782958131.946901,
+      "bytes_sent_per_sec": 856,
+      "bytes_recv_per_sec": 2010,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 10
+    },
+    {
+      "id": 3430,
+      "timestamp": 1782958133.5597482,
+      "bytes_sent_per_sec": 3613,
+      "bytes_recv_per_sec": 2951,
+      "packets_sent_per_sec": 27,
+      "packets_recv_per_sec": 33
+    },
+    {
+      "id": 3431,
+      "timestamp": 1782958133.9742186,
+      "bytes_sent_per_sec": 3505,
+      "bytes_recv_per_sec": 2557,
+      "packets_sent_per_sec": 25,
+      "packets_recv_per_sec": 30
+    },
+    {
+      "id": 3432,
+      "timestamp": 1782958135.5862465,
+      "bytes_sent_per_sec": 2273,
+      "bytes_recv_per_sec": 9557,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 29
+    },
+    {
+      "id": 3433,
+      "timestamp": 1782958135.9908385,
+      "bytes_sent_per_sec": 2218,
+      "bytes_recv_per_sec": 9599,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 30
+    },
+    {
+      "id": 3434,
+      "timestamp": 1782958137.6838148,
+      "bytes_sent_per_sec": 1376,
+      "bytes_recv_per_sec": 1705,
+      "packets_sent_per_sec": 19,
+      "packets_recv_per_sec": 22
+    },
+    {
+      "id": 3435,
+      "timestamp": 1782958138.013601,
+      "bytes_sent_per_sec": 2658,
+      "bytes_recv_per_sec": 1856,
+      "packets_sent_per_sec": 28,
+      "packets_recv_per_sec": 25
+    },
+    {
+      "id": 3436,
+      "timestamp": 1782958139.7061186,
+      "bytes_sent_per_sec": 4675,
+      "bytes_recv_per_sec": 10008,
+      "packets_sent_per_sec": 47,
+      "packets_recv_per_sec": 55
+    },
+    {
+      "id": 3437,
+      "timestamp": 1782958140.108519,
+      "bytes_sent_per_sec": 3448,
+      "bytes_recv_per_sec": 9857,
+      "packets_sent_per_sec": 39,
+      "packets_recv_per_sec": 52
+    },
+    {
+      "id": 3438,
+      "timestamp": 1782958141.7288704,
+      "bytes_sent_per_sec": 763,
+      "bytes_recv_per_sec": 591,
+      "packets_sent_per_sec": 9,
+      "packets_recv_per_sec": 10
+    },
+    {
+      "id": 3439,
+      "timestamp": 1782958142.133389,
+      "bytes_sent_per_sec": 991,
+      "bytes_recv_per_sec": 1025,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 13
+    },
+    {
+      "id": 3440,
+      "timestamp": 1782958143.7561727,
+      "bytes_sent_per_sec": 768,
+      "bytes_recv_per_sec": 987,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3441,
+      "timestamp": 1782958144.1617868,
+      "bytes_sent_per_sec": 2890,
+      "bytes_recv_per_sec": 1084,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 13
+    },
+    {
+      "id": 3442,
+      "timestamp": 1782958145.7825332,
+      "bytes_sent_per_sec": 3845,
+      "bytes_recv_per_sec": 3837,
+      "packets_sent_per_sec": 25,
+      "packets_recv_per_sec": 32
+    },
+    {
+      "id": 3443,
+      "timestamp": 1782958146.186792,
+      "bytes_sent_per_sec": 1495,
+      "bytes_recv_per_sec": 3264,
+      "packets_sent_per_sec": 22,
+      "packets_recv_per_sec": 26
+    },
+    {
+      "id": 3444,
+      "timestamp": 1782958147.8841574,
+      "bytes_sent_per_sec": 992,
+      "bytes_recv_per_sec": 995,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3445,
+      "timestamp": 1782958148.211416,
+      "bytes_sent_per_sec": 1030,
+      "bytes_recv_per_sec": 1062,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3446,
+      "timestamp": 1782958149.9167402,
+      "bytes_sent_per_sec": 1215,
+      "bytes_recv_per_sec": 460,
+      "packets_sent_per_sec": 10,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3447,
+      "timestamp": 1782958150.3272257,
+      "bytes_sent_per_sec": 1122,
+      "bytes_recv_per_sec": 459,
+      "packets_sent_per_sec": 9,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3448,
+      "timestamp": 1782958151.9390876,
+      "bytes_sent_per_sec": 1104,
+      "bytes_recv_per_sec": 910,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3449,
+      "timestamp": 1782958152.344629,
+      "bytes_sent_per_sec": 1650,
+      "bytes_recv_per_sec": 1238,
+      "packets_sent_per_sec": 14,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3450,
+      "timestamp": 1782958153.9642215,
+      "bytes_sent_per_sec": 748,
+      "bytes_recv_per_sec": 887,
+      "packets_sent_per_sec": 9,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3451,
+      "timestamp": 1782958154.4373193,
+      "bytes_sent_per_sec": 257,
+      "bytes_recv_per_sec": 559,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3452,
+      "timestamp": 1782958155.989531,
+      "bytes_sent_per_sec": 576,
+      "bytes_recv_per_sec": 642,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 10
+    },
+    {
+      "id": 3453,
+      "timestamp": 1782958156.4587545,
+      "bytes_sent_per_sec": 521,
+      "bytes_recv_per_sec": 642,
+      "packets_sent_per_sec": 7,
+      "packets_recv_per_sec": 10
+    },
+    {
+      "id": 3454,
+      "timestamp": 1782958158.0417633,
+      "bytes_sent_per_sec": 840,
+      "bytes_recv_per_sec": 754,
+      "packets_sent_per_sec": 10,
+      "packets_recv_per_sec": 8
+    },
+    {
+      "id": 3455,
+      "timestamp": 1782958158.4755871,
+      "bytes_sent_per_sec": 5277,
+      "bytes_recv_per_sec": 1430,
+      "packets_sent_per_sec": 19,
+      "packets_recv_per_sec": 16
+    },
+    {
+      "id": 3456,
+      "timestamp": 1782958160.0685694,
+      "bytes_sent_per_sec": 5681,
+      "bytes_recv_per_sec": 2025,
+      "packets_sent_per_sec": 26,
+      "packets_recv_per_sec": 24
+    },
+    {
+      "id": 3457,
+      "timestamp": 1782958160.5003989,
+      "bytes_sent_per_sec": 2843,
+      "bytes_recv_per_sec": 3223,
+      "packets_sent_per_sec": 22,
+      "packets_recv_per_sec": 22
+    },
+    {
+      "id": 3458,
+      "timestamp": 1782958162.123712,
+      "bytes_sent_per_sec": 5027,
+      "bytes_recv_per_sec": 4889,
+      "packets_sent_per_sec": 23,
+      "packets_recv_per_sec": 29
+    },
+    {
+      "id": 3459,
+      "timestamp": 1782958162.521064,
+      "bytes_sent_per_sec": 4375,
+      "bytes_recv_per_sec": 13817,
+      "packets_sent_per_sec": 27,
+      "packets_recv_per_sec": 50
+    },
+    {
+      "id": 3460,
+      "timestamp": 1782958164.1528258,
+      "bytes_sent_per_sec": 4577,
+      "bytes_recv_per_sec": 18807,
+      "packets_sent_per_sec": 30,
+      "packets_recv_per_sec": 57
+    },
+    {
+      "id": 3461,
+      "timestamp": 1782958164.6171112,
+      "bytes_sent_per_sec": 3739,
+      "bytes_recv_per_sec": 7939,
+      "packets_sent_per_sec": 23,
+      "packets_recv_per_sec": 29
+    },
+    {
+      "id": 3462,
+      "timestamp": 1782958166.1778276,
+      "bytes_sent_per_sec": 1133,
+      "bytes_recv_per_sec": 8269,
+      "packets_sent_per_sec": 13,
+      "packets_recv_per_sec": 23
+    },
+    {
+      "id": 3463,
+      "timestamp": 1782958166.6395392,
+      "bytes_sent_per_sec": 1024,
+      "bytes_recv_per_sec": 8311,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 24
+    },
+    {
+      "id": 3464,
+      "timestamp": 1782958168.245268,
+      "bytes_sent_per_sec": 9244,
+      "bytes_recv_per_sec": 5684,
+      "packets_sent_per_sec": 48,
+      "packets_recv_per_sec": 42
+    },
+    {
+      "id": 3465,
+      "timestamp": 1782958168.6643279,
+      "bytes_sent_per_sec": 10025,
+      "bytes_recv_per_sec": 11633,
+      "packets_sent_per_sec": 58,
+      "packets_recv_per_sec": 63
+    },
+    {
+      "id": 3466,
+      "timestamp": 1782958170.2837675,
+      "bytes_sent_per_sec": 1276,
+      "bytes_recv_per_sec": 7195,
+      "packets_sent_per_sec": 17,
+      "packets_recv_per_sec": 32
+    },
+    {
+      "id": 3467,
+      "timestamp": 1782958170.6900194,
+      "bytes_sent_per_sec": 550,
+      "bytes_recv_per_sec": 1246,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3468,
+      "timestamp": 1782958172.383769,
+      "bytes_sent_per_sec": 460,
+      "bytes_recv_per_sec": 531,
+      "packets_sent_per_sec": 7,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3469,
+      "timestamp": 1782958172.7168267,
+      "bytes_sent_per_sec": 841,
+      "bytes_recv_per_sec": 883,
+      "packets_sent_per_sec": 10,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3470,
+      "timestamp": 1782958174.414179,
+      "bytes_sent_per_sec": 4673,
+      "bytes_recv_per_sec": 7546,
+      "packets_sent_per_sec": 35,
+      "packets_recv_per_sec": 34
+    },
+    {
+      "id": 3471,
+      "timestamp": 1782958174.8135755,
+      "bytes_sent_per_sec": 4346,
+      "bytes_recv_per_sec": 7326,
+      "packets_sent_per_sec": 33,
+      "packets_recv_per_sec": 34
+    },
+    {
+      "id": 3472,
+      "timestamp": 1782958176.44165,
+      "bytes_sent_per_sec": 3866,
+      "bytes_recv_per_sec": 7711,
+      "packets_sent_per_sec": 24,
+      "packets_recv_per_sec": 31
+    },
+    {
+      "id": 3473,
+      "timestamp": 1782958177.0187137,
+      "bytes_sent_per_sec": 3812,
+      "bytes_recv_per_sec": 7603,
+      "packets_sent_per_sec": 23,
+      "packets_recv_per_sec": 29
+    },
+    {
+      "id": 3474,
+      "timestamp": 1782958178.4649148,
+      "bytes_sent_per_sec": 895,
+      "bytes_recv_per_sec": 820,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 9
+    },
+    {
+      "id": 3475,
+      "timestamp": 1782958179.0504658,
+      "bytes_sent_per_sec": 999,
+      "bytes_recv_per_sec": 881,
+      "packets_sent_per_sec": 12,
+      "packets_recv_per_sec": 11
+    },
+    {
+      "id": 3476,
+      "timestamp": 1782958180.49071,
+      "bytes_sent_per_sec": 8579,
+      "bytes_recv_per_sec": 5723,
+      "packets_sent_per_sec": 21,
+      "packets_recv_per_sec": 19
+    },
+    {
+      "id": 3477,
+      "timestamp": 1782958181.1428387,
+      "bytes_sent_per_sec": 8420,
+      "bytes_recv_per_sec": 5740,
+      "packets_sent_per_sec": 19,
+      "packets_recv_per_sec": 18
+    },
+    {
+      "id": 3478,
+      "timestamp": 1782958182.5137963,
+      "bytes_sent_per_sec": 900,
+      "bytes_recv_per_sec": 1334,
+      "packets_sent_per_sec": 14,
+      "packets_recv_per_sec": 18
+    },
+    {
+      "id": 3479,
+      "timestamp": 1782958183.1653721,
+      "bytes_sent_per_sec": 5111,
+      "bytes_recv_per_sec": 7881,
+      "packets_sent_per_sec": 33,
+      "packets_recv_per_sec": 35
+    },
+    {
+      "id": 3480,
+      "timestamp": 1782958184.5373654,
+      "bytes_sent_per_sec": 4665,
+      "bytes_recv_per_sec": 8143,
+      "packets_sent_per_sec": 26,
+      "packets_recv_per_sec": 30
+    },
+    {
+      "id": 3481,
+      "timestamp": 1782958185.1863544,
+      "bytes_sent_per_sec": 508,
+      "bytes_recv_per_sec": 1717,
+      "packets_sent_per_sec": 8,
+      "packets_recv_per_sec": 14
+    },
+    {
+      "id": 3482,
+      "timestamp": 1782958186.5626326,
+      "bytes_sent_per_sec": 230,
+      "bytes_recv_per_sec": 505,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3483,
+      "timestamp": 1782958187.2184668,
+      "bytes_sent_per_sec": 231,
+      "bytes_recv_per_sec": 654,
+      "packets_sent_per_sec": 4,
+      "packets_recv_per_sec": 7
+    },
+    {
+      "id": 3484,
+      "timestamp": 1782958188.5844536,
+      "bytes_sent_per_sec": 9920,
+      "bytes_recv_per_sec": 2666,
+      "packets_sent_per_sec": 24,
+      "packets_recv_per_sec": 23
+    },
+    {
+      "id": 3485,
+      "timestamp": 1782958189.288261,
+      "bytes_sent_per_sec": 10385,
+      "bytes_recv_per_sec": 5275,
+      "packets_sent_per_sec": 31,
+      "packets_recv_per_sec": 41
+    },
+    {
+      "id": 3486,
+      "timestamp": 1782958190.6798904,
+      "bytes_sent_per_sec": 2658,
+      "bytes_recv_per_sec": 3954,
+      "packets_sent_per_sec": 18,
+      "packets_recv_per_sec": 30
+    },
+    {
+      "id": 3487,
+      "timestamp": 1782958191.3174067,
+      "bytes_sent_per_sec": 2192,
+      "bytes_recv_per_sec": 2327,
+      "packets_sent_per_sec": 11,
+      "packets_recv_per_sec": 13
+    }
+  ],
+  "sessionTimeline": {
+    "buckets": [
+      {
+        "label": "-3:00",
+        "count": 0,
+        "offsetSec": -180
+      },
+      {
+        "label": "-2:55",
+        "count": 0,
+        "offsetSec": -175
+      },
+      {
+        "label": "-2:50",
+        "count": 1,
+        "offsetSec": -170
+      },
+      {
+        "label": "-2:45",
+        "count": 0,
+        "offsetSec": -165
+      },
+      {
+        "label": "-2:40",
+        "count": 0,
+        "offsetSec": -160
+      },
+      {
+        "label": "-2:35",
+        "count": 0,
+        "offsetSec": -155
+      },
+      {
+        "label": "-2:30",
+        "count": 0,
+        "offsetSec": -150
+      },
+      {
+        "label": "-2:25",
+        "count": 0,
+        "offsetSec": -145
+      },
+      {
+        "label": "-2:20",
+        "count": 0,
+        "offsetSec": -140
+      },
+      {
+        "label": "-2:15",
+        "count": 0,
+        "offsetSec": -135
+      },
+      {
+        "label": "-2:10",
+        "count": 0,
+        "offsetSec": -130
+      },
+      {
+        "label": "-2:05",
+        "count": 1,
+        "offsetSec": -125
+      },
+      {
+        "label": "-2:00",
+        "count": 1,
+        "offsetSec": -120
+      },
+      {
+        "label": "-1:55",
+        "count": 2,
+        "offsetSec": -115
+      },
+      {
+        "label": "-1:50",
+        "count": 2,
+        "offsetSec": -110
+      },
+      {
+        "label": "-1:45",
+        "count": 0,
+        "offsetSec": -105
+      },
+      {
+        "label": "-1:40",
+        "count": 0,
+        "offsetSec": -100
+      },
+      {
+        "label": "-1:35",
+        "count": 0,
+        "offsetSec": -95
+      },
+      {
+        "label": "-1:30",
+        "count": 0,
+        "offsetSec": -90
+      },
+      {
+        "label": "-1:25",
+        "count": 0,
+        "offsetSec": -85
+      },
+      {
+        "label": "-1:20",
+        "count": 0,
+        "offsetSec": -80
+      },
+      {
+        "label": "-1:15",
+        "count": 0,
+        "offsetSec": -75
+      },
+      {
+        "label": "-1:10",
+        "count": 0,
+        "offsetSec": -70
+      },
+      {
+        "label": "-1:05",
+        "count": 0,
+        "offsetSec": -65
+      },
+      {
+        "label": "-1:00",
+        "count": 0,
+        "offsetSec": -60
+      },
+      {
+        "label": "-0:55",
+        "count": 0,
+        "offsetSec": -55
+      },
+      {
+        "label": "-0:50",
+        "count": 1,
+        "offsetSec": -50
+      },
+      {
+        "label": "-0:45",
+        "count": 0,
+        "offsetSec": -45
+      },
+      {
+        "label": "-0:40",
+        "count": 0,
+        "offsetSec": -40
+      },
+      {
+        "label": "-0:35",
+        "count": 0,
+        "offsetSec": -35
+      },
+      {
+        "label": "-0:30",
+        "count": 0,
+        "offsetSec": -30
+      },
+      {
+        "label": "-0:25",
+        "count": 0,
+        "offsetSec": -25
+      },
+      {
+        "label": "-0:20",
+        "count": 0,
+        "offsetSec": -20
+      },
+      {
+        "label": "-0:15",
+        "count": 0,
+        "offsetSec": -15
+      },
+      {
+        "label": "-0:10",
+        "count": 0,
+        "offsetSec": -10
+      },
+      {
+        "label": "-0:05",
+        "count": 0,
+        "offsetSec": -5
+      }
+    ],
+    "bucketSec": 5,
+    "windowSec": 180,
+    "windowEnd": "2026-07-02T02:09:50.000Z"
+  }
+}
